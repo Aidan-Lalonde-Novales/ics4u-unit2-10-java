@@ -4,7 +4,15 @@
 *
 * @author  Aidan Lalonde-Novales
 * @version 1.0
-* @since   2022-11-01
+* @since   2022-11-02
+*
+* The following is an Example of a section that would
+* crash the program by attempting to instantiate an abstract class.
+*
+* // Create Sedan
+* System.out.println("Created Sedan.");
+* final Vehicle sedan = new Vehicle(160, "Black");
+* System.out.println("\nMax Speed: " + sedan.getMaxSpeed() + "\n");
 */
 
 /**

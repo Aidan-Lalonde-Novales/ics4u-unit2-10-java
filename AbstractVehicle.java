@@ -3,13 +3,13 @@
 *
 * @author  Aidan Lalonde-Novales
 * @version 1.0
-* @since   2022-11-01
+* @since   2022-11-02
 */
 
 /**
  * Vehicle Class.
  */
-public class Vehicle {
+abstract class AbstractVehicle {
 
     /**
      * Declare vehicle speed.
@@ -32,7 +32,7 @@ public class Vehicle {
      * @param maxSpeed - max speed achievable.
      * @param color - color of the vehicle.
      */
-    public Vehicle(
+    abstract Vehicle(
         int maxSpeed,
         String color) {
         this.maxSpeed = maxSpeed;
